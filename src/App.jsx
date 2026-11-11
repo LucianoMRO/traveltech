@@ -1,14 +1,19 @@
-import react from 'react';
-  
+import { useState, useEffect } from 'react';
+import { supabase } from './supabase';
+
 function App() {
-  return (
+  
+  const [viagens, setViagens] = useState([]);
+
+  return(
     <>
-      <h1> TRAVELTECH </h1>
-      <h2>travel</h2>
-      <p> Bem vindo ao meu site de Viagens</p>
-      
+    
+    <h1> Travel Tech </h1>
+    <p> viagens Disponíveis </p>
+
     </>
   )
-} 
+}
+
 
 export default App;
