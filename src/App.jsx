@@ -5,7 +5,7 @@ function App() {
     <>
       <h1> Travel tech </h1>
       <p> Bem vindo ao meu site de Viagens</p>
-    
+      
     </>
   )
 } 
