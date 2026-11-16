@@ -1,0 +1,13 @@
+.logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#header {
+    background-color: #8ec5fc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
