@@ -1,4 +1,4 @@
-.logo img{
+.logo img {
     width: 80px;
     height: 80px;
     object-fit: contain;
@@ -10,4 +10,44 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+}
+
+.menu {
+    color: #174572;
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.link:hover {
+    color: #26c7c7;
+}
+
+.botao {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn-login {
+    color: #174572;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px 12px;
+}
+
+.btn-cadastro {
+    color: #307084;
+    background-color: rgb(6, 109, 243);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
 }

@@ -38,5 +38,4 @@ function CardViagens() {
   )
 }
 
-
 export default CardViagens;

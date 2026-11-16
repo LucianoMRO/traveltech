@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
 
-        <h1></h1>
+        <h1>teste</h1>
         
         </>
     
@@ -12,3 +12,4 @@ function Home() {
 }
 
 export default Home;
+

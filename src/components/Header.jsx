@@ -10,14 +10,15 @@ function Header() {
         <span className="logo">
           <img src="/Logo.png" alt="Logo de viagens" />
         </span>
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/viagens">Viagens</Link>
+        <nav className="menu">
+            <Link to="/" className="link">Home</Link>
+            <Link to="/viagens" className="link">Viagens</Link>
+            <Link to="/termos de serviço" className="link">Termos de serviço</Link>
         </nav>
 
-        <div>
-            <Link to="/login">Login</Link>
-            <Link to="/cadastrar">Cadastre-se</Link>
+        <div className="botao">
+            <Link to="/login" className="btn-log">Login</Link>
+            <Link to="/cadastrar" className="link btn-cadastro">Cadastre-se</Link>
         </div>
       </header>
 
